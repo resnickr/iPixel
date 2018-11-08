@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  iPixel
 //
-//  Created by Miles Yohai on 11/8/18.
-//  Copyright © 2018 Miles Yohai. All rights reserved.
+//  Created by Miles Yohai & Ryan Resnick on 11/8/18.
+//  Copyright © 2018 Miles Yohai & Ryan Resnick. All rights reserved.
 //
 
 import UIKit
