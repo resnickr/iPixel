@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iPixel" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="iPixel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -77,10 +77,10 @@
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="WLW-5O-EjV">
             <objects>
-                <viewController id="B0C-kt-so0" sceneMemberID="viewController">
+                <viewController id="B0C-kt-so0" customClass="HomeViewController" customModule="iPixel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s9C-9n-wpK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -137,10 +137,10 @@
             </objects>
             <point key="canvasLocation" x="910" y="117"/>
         </scene>
-        <!--View Controller-->
+        <!--Inbox View Controller-->
         <scene sceneID="irh-rc-CbE">
             <objects>
-                <viewController id="bPl-jj-Cv2" sceneMemberID="viewController">
+                <viewController id="bPl-jj-Cv2" customClass="InboxViewController" customModule="iPixel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Ci-Yp-0Fg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -170,10 +170,10 @@
             </objects>
             <point key="canvasLocation" x="1718" y="116"/>
         </scene>
-        <!--View Controller-->
+        <!--New Contact View Controller-->
         <scene sceneID="bHY-fW-3wA">
             <objects>
-                <viewController id="GNJ-y2-a8t" sceneMemberID="viewController">
+                <viewController id="GNJ-y2-a8t" customClass="NewContactViewController" customModule="iPixel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qtl-Ma-ioe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -255,10 +255,10 @@
             </objects>
             <point key="canvasLocation" x="3239" y="822"/>
         </scene>
-        <!--View Controller-->
+        <!--Msg Contents View Controller-->
         <scene sceneID="tm8-pN-47d">
             <objects>
-                <viewController id="F7d-Km-LWo" sceneMemberID="viewController">
+                <viewController id="F7d-Km-LWo" customClass="MsgContentsViewController" customModule="iPixel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1ip-WM-Z7y">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -300,10 +300,10 @@
             </objects>
             <point key="canvasLocation" x="1718" y="822"/>
         </scene>
-        <!--View Controller-->
+        <!--Contacts View Controller-->
         <scene sceneID="Yg1-mM-MfP">
             <objects>
-                <viewController id="NO4-jn-h0U" sceneMemberID="viewController">
+                <viewController id="NO4-jn-h0U" customClass="ContactsViewController" customModule="iPixel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uzl-lh-XEg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -396,10 +396,10 @@
             </objects>
             <point key="canvasLocation" x="2486" y="117"/>
         </scene>
-        <!--View Controller-->
+        <!--Recovery View Controller-->
         <scene sceneID="UOB-Ob-7T4">
             <objects>
-                <viewController id="Yim-eE-Rcg" sceneMemberID="viewController">
+                <viewController id="Yim-eE-Rcg" customClass="RecoveryViewController" customModule="iPixel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vnK-D3-La5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -439,10 +439,10 @@
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="821.73913043478262"/>
         </scene>
-        <!--View Controller-->
+        <!--New Account View Controller-->
         <scene sceneID="uKw-TE-Njg">
             <objects>
-                <viewController id="Ynb-xH-VKz" sceneMemberID="viewController">
+                <viewController id="Ynb-xH-VKz" customClass="NewAccountViewController" customModule="iPixel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nup-J7-m5f">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -524,10 +524,10 @@
             </objects>
             <point key="canvasLocation" x="910" y="822"/>
         </scene>
-        <!--View Controller-->
+        <!--Img Send View Controller-->
         <scene sceneID="AeA-Yu-LJk">
             <objects>
-                <viewController id="WyV-dI-1kR" sceneMemberID="viewController">
+                <viewController id="WyV-dI-1kR" customClass="ImgSendViewController" customModule="iPixel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="X18-Ns-0X7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

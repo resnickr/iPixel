@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D675795219B5B3400DC4FF2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D675794219B5B3400DC4FF2 /* HomeViewController.swift */; };
+		5D675797219B5B5700DC4FF2 /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D675796219B5B5700DC4FF2 /* InboxViewController.swift */; };
+		5D675799219B5B7500DC4FF2 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D675798219B5B7500DC4FF2 /* ContactsViewController.swift */; };
+		5D67579B219B5B9800DC4FF2 /* RecoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D67579A219B5B9800DC4FF2 /* RecoveryViewController.swift */; };
+		5D67579D219B5BC400DC4FF2 /* NewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D67579C219B5BC400DC4FF2 /* NewAccountViewController.swift */; };
+		5D67579F219B5C0100DC4FF2 /* MsgContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D67579E219B5C0100DC4FF2 /* MsgContentsViewController.swift */; };
+		5D6757A1219B5C1D00DC4FF2 /* ImgSendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6757A0219B5C1D00DC4FF2 /* ImgSendViewController.swift */; };
+		5D6757A3219B5C4000DC4FF2 /* NewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6757A2219B5C4000DC4FF2 /* NewContactViewController.swift */; };
 		5DD97C7C2194C4FF007E4D99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD97C7B2194C4FF007E4D99 /* AppDelegate.swift */; };
-		5DD97C7E2194C4FF007E4D99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD97C7D2194C4FF007E4D99 /* ViewController.swift */; };
+		5DD97C7E2194C4FF007E4D99 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD97C7D2194C4FF007E4D99 /* LoginViewController.swift */; };
 		5DD97C812194C4FF007E4D99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD97C7F2194C4FF007E4D99 /* Main.storyboard */; };
 		5DD97C842194C4FF007E4D99 /* iPixel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5DD97C822194C4FF007E4D99 /* iPixel.xcdatamodeld */; };
 		5DD97C862194C502007E4D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DD97C852194C502007E4D99 /* Assets.xcassets */; };
@@ -35,9 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D675794219B5B3400DC4FF2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5D675796219B5B5700DC4FF2 /* InboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
+		5D675798219B5B7500DC4FF2 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		5D67579A219B5B9800DC4FF2 /* RecoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryViewController.swift; sourceTree = "<group>"; };
+		5D67579C219B5BC400DC4FF2 /* NewAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountViewController.swift; sourceTree = "<group>"; };
+		5D67579E219B5C0100DC4FF2 /* MsgContentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MsgContentsViewController.swift; sourceTree = "<group>"; };
+		5D6757A0219B5C1D00DC4FF2 /* ImgSendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgSendViewController.swift; sourceTree = "<group>"; };
+		5D6757A2219B5C4000DC4FF2 /* NewContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactViewController.swift; sourceTree = "<group>"; };
 		5DD97C782194C4FF007E4D99 /* iPixel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPixel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD97C7B2194C4FF007E4D99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5DD97C7D2194C4FF007E4D99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DD97C7D2194C4FF007E4D99 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5DD97C802194C4FF007E4D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DD97C832194C4FF007E4D99 /* iPixel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iPixel.xcdatamodel; sourceTree = "<group>"; };
 		5DD97C852194C502007E4D99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,12 +116,20 @@
 			isa = PBXGroup;
 			children = (
 				5DD97C7B2194C4FF007E4D99 /* AppDelegate.swift */,
-				5DD97C7D2194C4FF007E4D99 /* ViewController.swift */,
+				5DD97C7D2194C4FF007E4D99 /* LoginViewController.swift */,
 				5DD97C7F2194C4FF007E4D99 /* Main.storyboard */,
 				5DD97C852194C502007E4D99 /* Assets.xcassets */,
 				5DD97C872194C502007E4D99 /* LaunchScreen.storyboard */,
 				5DD97C8A2194C502007E4D99 /* Info.plist */,
 				5DD97C822194C4FF007E4D99 /* iPixel.xcdatamodeld */,
+				5D675794219B5B3400DC4FF2 /* HomeViewController.swift */,
+				5D675796219B5B5700DC4FF2 /* InboxViewController.swift */,
+				5D675798219B5B7500DC4FF2 /* ContactsViewController.swift */,
+				5D67579A219B5B9800DC4FF2 /* RecoveryViewController.swift */,
+				5D67579C219B5BC400DC4FF2 /* NewAccountViewController.swift */,
+				5D67579E219B5C0100DC4FF2 /* MsgContentsViewController.swift */,
+				5D6757A0219B5C1D00DC4FF2 /* ImgSendViewController.swift */,
+				5D6757A2219B5C4000DC4FF2 /* NewContactViewController.swift */,
 			);
 			path = iPixel;
 			sourceTree = "<group>";
@@ -259,9 +283,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DD97C7E2194C4FF007E4D99 /* ViewController.swift in Sources */,
+				5D6757A1219B5C1D00DC4FF2 /* ImgSendViewController.swift in Sources */,
+				5D6757A3219B5C4000DC4FF2 /* NewContactViewController.swift in Sources */,
+				5D675797219B5B5700DC4FF2 /* InboxViewController.swift in Sources */,
+				5DD97C7E2194C4FF007E4D99 /* LoginViewController.swift in Sources */,
 				5DD97C842194C4FF007E4D99 /* iPixel.xcdatamodeld in Sources */,
 				5DD97C7C2194C4FF007E4D99 /* AppDelegate.swift in Sources */,
+				5D67579F219B5C0100DC4FF2 /* MsgContentsViewController.swift in Sources */,
+				5D675795219B5B3400DC4FF2 /* HomeViewController.swift in Sources */,
+				5D675799219B5B7500DC4FF2 /* ContactsViewController.swift in Sources */,
+				5D67579B219B5B9800DC4FF2 /* RecoveryViewController.swift in Sources */,
+				5D67579D219B5BC400DC4FF2 /* NewAccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
